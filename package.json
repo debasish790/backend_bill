@@ -11,7 +11,7 @@
     "test": "jest --watchAll",
     "lint": "expo lint",
     "server": "nodemon backend/server.js",
-    "build": "expo build:android",
+    "build": "npx expo build:android",
     "build:ios": "expo build:ios"
   },
   "jest": {
@@ -88,7 +88,8 @@
     "jest-expo": "~53.0.4",
     "nodemon": "^3.1.10",
     "react-test-renderer": "^18.3.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "expo-cli": "^6.0.0"
   },
   "private": true
 }
